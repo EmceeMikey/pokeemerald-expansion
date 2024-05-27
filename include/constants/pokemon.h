@@ -19,10 +19,12 @@
 #define TYPE_ELECTRIC         13
 #define TYPE_PSYCHIC          14
 #define TYPE_ICE              15
-#define TYPE_DRAGON           16
-#define TYPE_DARK             17
+#define TYPE_DARK             16
+#define TYPE_DRAGON			  17
 #define TYPE_FAIRY            18
-#define NUMBER_OF_MON_TYPES   19
+#define TYPE_AURAL			  19
+#define TYPE_ASTRAL			  20
+#define NUMBER_OF_MON_TYPES   21
 
 // Pokémon egg groups
 #define EGG_GROUP_NONE                0

@@ -589,6 +589,38 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         //.teraShard = ITEM_FAIRY_TERA_SHARD,
         //.arceusForm = SPECIES_ARCEUS_FAIRY,
     },
+    [TYPE_AURAL] =
+    {
+        .name = _("Aural"),
+        .generic = _("an AURAL move"),
+        .palette = 14,
+        .zMove = MOVE_TWINKLE_TACKLE,
+        .maxMove = MOVE_MAX_STARFALL,
+        //.enhanceItem = ITEM_BRASS_BELL,
+        //.berry = ITEM_FOAMI_BERRY,
+        //.gem = ITEM_AURAL_GEM,
+        //.zCrystal = ITEM_AURIUM_Z,
+        //.plate = ITEM_ECHO_PLATE,
+        //.memory = ITEM_AURAL_MEMORY,
+        //.teraShard = ITEM_AURAL_TERA_SHARD,
+        //.arceusForm = SPECIES_ARCEUS_AURAL,
+    },
+    [TYPE_ASTRAL] =
+    {
+        .name = _("Astral"),
+        .generic = _("an ASTRAL move"),
+        .palette = 14,
+        .zMove = MOVE_BLACK_HOLE_ECLIPSE,
+        .maxMove = MOVE_MAX_STARFALL,
+        //.enhanceItem = ITEM_STAR_PIECE,
+        //.berry = ITEM_MOONI_BERRY,
+        //.gem = ITEM_ASTRAL_GEM,
+        //.zCrystal = ITEM_ASTRALIUM_Z,
+        //.plate = ITEM_COSMIC_PLATE,
+        //.memory = ITEM_ASTRAL_MEMORY,
+        //.teraShard = ITEM_ASTRAL_TERA_SHARD,
+        //.arceusForm = SPECIES_ARCEUS_ASTRAL,
+    },
     /*
     [TYPE_STELLAR] =
     {
