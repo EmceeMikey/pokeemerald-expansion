@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\include\\constants",
-    "\\src",
-    "\\tools\\learnset_helpers"
+    ""
   ],
-  "SelectedNode": "\\src\\starter_choose.c",
+  "SelectedNode": "\\src",
   "PreviewInSolutionExplorer": false
 }

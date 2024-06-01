@@ -3850,9 +3850,9 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 
 #if P_FAMILY_CLEFAIRY
 #if P_UPDATED_TYPES >= GEN_6
-    #define CLEFAIRY_FAMILY_TYPES { TYPE_FAIRY, TYPE_FAIRY }
+    #define CLEFAIRY_FAMILY_TYPES { TYPE_ASTRAL, TYPE_FAIRY }
 #else
-    #define CLEFAIRY_FAMILY_TYPES { TYPE_NORMAL, TYPE_NORMAL }
+    #define CLEFAIRY_FAMILY_TYPES { TYPE_ASTRAL, TYPE_NORMAL }
 #endif
 
 #if P_GEN_2_CROSS_EVOS
@@ -4258,9 +4258,9 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 
 #if P_FAMILY_JIGGLYPUFF
 #if P_UPDATED_TYPES >= GEN_6
-    #define JIGGLYPUFF_FAMILY_TYPES { TYPE_NORMAL, TYPE_FAIRY}
+    #define JIGGLYPUFF_FAMILY_TYPES { TYPE_AURAL, TYPE_FAIRY}
 #else
-    #define JIGGLYPUFF_FAMILY_TYPES { TYPE_NORMAL, TYPE_NORMAL}
+    #define JIGGLYPUFF_FAMILY_TYPES { TYPE_AURAL, TYPE_NORMAL}
 #endif
 
 #if P_GEN_2_CROSS_EVOS
@@ -9883,7 +9883,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpeed     = 100,
         .baseSpAttack  = 55,
         .baseSpDefense = 55,
-        .types = MON_TYPES(TYPE_ELECTRIC),
+        .types = MON_TYPES(TYPE_ELECTRIC, TYPE_AURAL),
         .catchRate = 190,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 66 : 103,
         .evYield_Speed = 1,
@@ -9892,7 +9892,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
-        .abilities = { ABILITY_SOUNDPROOF, ABILITY_STATIC, ABILITY_AFTERMATH },
+        .abilities = { ABILITY_AFTERMATH, ABILITY_NONE, ABILITY_STATIC },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Voltorb"),
         .cryId = CRY_VOLTORB,
@@ -9937,7 +9937,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpeed     = P_UPDATED_STATS >= GEN_7 ? 150 : 140,
         .baseSpAttack  = 80,
         .baseSpDefense = 80,
-        .types = MON_TYPES(TYPE_ELECTRIC),
+        .types = MON_TYPES(TYPE_ELECTRIC, TYPE_AURAL),
         .catchRate = 60,
         .expYield = ELECTRODE_EXP_YIELD,
         .evYield_Speed = 2,
@@ -9946,7 +9946,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
-        .abilities = { ABILITY_SOUNDPROOF, ABILITY_STATIC, ABILITY_AFTERMATH },
+        .abilities = { ABILITY_AFTERMATH, ABILITY_NONE, ABILITY_STATIC },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Electrode"),
         .cryId = CRY_ELECTRODE,
@@ -10000,7 +10000,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
-        .abilities = { ABILITY_SOUNDPROOF, ABILITY_STATIC, ABILITY_AFTERMATH },
+        .abilities = { ABILITY_AFTERMATH, ABILITY_SOUNDPROOF, ABILITY_STATIC },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Voltorb"),
         .cryId = CRY_VOLTORB,
@@ -10055,7 +10055,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
-        .abilities = { ABILITY_SOUNDPROOF, ABILITY_STATIC, ABILITY_AFTERMATH },
+        .abilities = { ABILITY_AFTERMATH, ABILITY_SOUNDPROOF, ABILITY_STATIC },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Electrode"),
         .cryId = CRY_ELECTRODE,
@@ -11871,7 +11871,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpeed     = 85,
         .baseSpAttack  = 70,
         .baseSpDefense = 55,
-        .types = MON_TYPES(TYPE_WATER),
+        .types = MON_TYPES(TYPE_WATER, TYPE_ASTRAL),
         .catchRate = 225,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 68 : 106,
         .evYield_Speed = 1,
@@ -11927,7 +11927,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpeed     = 115,
         .baseSpAttack  = 100,
         .baseSpDefense = 85,
-        .types = MON_TYPES(TYPE_WATER, TYPE_PSYCHIC),
+        .types = MON_TYPES(TYPE_WATER, TYPE_ASTRAL),
         .catchRate = 60,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 182 : 207,
         .evYield_Speed = 2,
@@ -11997,7 +11997,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
-        .abilities = { ABILITY_SOUNDPROOF, ABILITY_FILTER, ABILITY_TECHNICIAN },
+        .abilities = { ABILITY_SCREEN_CLEANER, ABILITY_FILTER, ABILITY_TECHNICIAN },
         .bodyColor = BODY_COLOR_PINK,
         .speciesName = _("Mime Jr."),
         .cryId = CRY_MIME_JR,
@@ -12056,7 +12056,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
-        .abilities = { ABILITY_SOUNDPROOF, ABILITY_FILTER, ABILITY_TECHNICIAN },
+        .abilities = { ABILITY_SCREEN_CLEANER, ABILITY_FILTER, ABILITY_TECHNICIAN },
         .bodyColor = BODY_COLOR_PINK,
         .speciesName = _("Mr. Mime"),
         .cryId = CRY_MR_MIME,
@@ -13413,7 +13413,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpeed     = 60,
         .baseSpAttack  = 85,
         .baseSpDefense = 95,
-        .types = MON_TYPES(TYPE_WATER, TYPE_ICE),
+        .types = MON_TYPES(TYPE_WATER, TYPE_AURAL),
         .catchRate = 45,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 187 : 219,
         .evYield_HP = 2,
@@ -13470,7 +13470,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpeed     = 60,
         .baseSpAttack  = 85,
         .baseSpDefense = 95,
-        .types = MON_TYPES(TYPE_WATER, TYPE_ICE),
+        .types = MON_TYPES(TYPE_WATER, TYPE_AURAL),
         .catchRate = 45,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 187 : 219,
         .evYield_HP = 2,

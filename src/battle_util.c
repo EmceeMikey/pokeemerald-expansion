@@ -3496,6 +3496,21 @@ u8 AtkCanceller_UnableToUseMove(u32 moveType)
             }
             gBattleStruct->atkCancellerTracker++;
             break;
+        case CANCELLER_SOUNDPROOF:
+            if ((gMovesInfo[gCurrentMove].soundMove) && (gBattlerAttacker != gBattlerTarget))
+            {
+                if (B_SOUND_AURAL >= GEN_9
+                    && (IS_BATTLER_OF_TYPE(gBattlerTarget, TYPE_AURAL) || GetBattlerAbility(gBattlerTarget) == ABILITY_SOUNDPROOF))
+                {
+                    gBattlerAbility = gBattlerTarget;
+                    effect = 1;
+                }
+
+                if (effect != 0)
+                    gBattlescriptCurrInstr = BattleScript_SoundproofProtected;
+            }
+            gBattleStruct->atkCancellerTracker++;
+            break;
         case CANCELLER_POWDER_STATUS:
             if (gBattleMons[gBattlerAttacker].status2 & STATUS2_POWDER)
             {
