@@ -94,7 +94,11 @@
     "Underwater_Route105",
     "Underwater_Route125",
     "LittlerootCove",
-    "LittlerootHarbor"
+    "LittlerootHarbor",
+    "NewMap1",
+    "SlateportCity2",
+    "SlateportResidential",
+    "SlateportCity3"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -180,7 +184,8 @@
     "SlateportCity_House",
     "SlateportCity_PokemonCenter_1F",
     "SlateportCity_PokemonCenter_2F",
-    "SlateportCity_Mart"
+    "SlateportCity_Mart",
+    "SlateportHotel"
   ],
   "gMapGroup_IndoorMauville": [
     "MauvilleCity_Gym",

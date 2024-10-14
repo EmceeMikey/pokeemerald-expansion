@@ -1076,3 +1076,13 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/LittlerootCove/scripts.inc"
 
 	.include "data/maps/LittlerootHarbor/scripts.inc"
+
+	.include "data/maps/NewMap1/scripts.inc"
+
+	.include "data/maps/SlateportCity2/scripts.inc"
+
+	.include "data/maps/SlateportResidential/scripts.inc"
+
+	.include "data/maps/SlateportCity3/scripts.inc"
+
+	.include "data/maps/SlateportHotel/scripts.inc"

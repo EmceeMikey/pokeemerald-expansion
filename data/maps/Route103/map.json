@@ -15,13 +15,18 @@
   "connections": [
     {
       "map": "MAP_OLDALE_TOWN",
-      "offset": 0,
+      "offset": -20,
       "direction": "down"
     },
     {
       "map": "MAP_ROUTE110",
-      "offset": -60,
+      "offset": -40,
       "direction": "right"
+    },
+    {
+      "map": "MAP_NEW_MAP1",
+      "offset": 4,
+      "direction": "up"
     }
   ],
   "object_events": [
@@ -295,7 +300,9 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",

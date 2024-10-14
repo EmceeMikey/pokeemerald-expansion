@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_SLATEPORT_CITY",
-      "offset": 0,
+      "offset": -55,
       "direction": "left"
     },
     {
@@ -169,7 +169,13 @@
       "flag": "FLAG_ITEM_ROUTE_134_STAR_PIECE"
     }
   ],
-  "warp_events": [],
-  "coord_events": [],
-  "bg_events": []
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
 }

@@ -2,7 +2,7 @@ gText_Birch_Welcome::
 	.string "... ... ... ... ... ... ...\p"
 	.string "...Hello? ...Hello...?\p"
 	.string "...Is anyone there?\p"
-	.string "Wait- got it.  Well hi there!\n"
+	.string "Wait- got it.  Well, hi there!\n"
 	.string "I'm MICHAEL.\p"
 	.string "$"
 
@@ -44,18 +44,18 @@ gText_Birch_SoItsPlayer::
 
 gText_Birch_YourePlayer::
 	.string "Ah, okay!\p"
-	.string "You're {PLAYER}{KUN} who's moving to my\n"
-	.string "hometown of LITTLEROOT.\l"
-	.string "I get it now!\p"
+	.string "{PLAYER}{KUN}, I'm pleased to make\n"
+	.string "your acquaintance.  Now if you'll\l"
+	.string "excuse me...\p"
 	.string "$"
 
 gText_Birch_AreYouReady::
-	.string "All right, are you ready?\p"
-	.string "Your very own adventure is about\n"
-	.string "to unfold.\p"
-	.string "Take courage, and leap into the\n"
-	.string "world of POKéMON where dreams,\l"
-	.string "adventure, and friendships await!\p"
-	.string "Well, I'll be expecting you later.\n"
-	.string "Come see me in my POKéMON LAB.\p"
+	.string "I have some tasks of a quite\p"
+	.string "serious nature I must attend to.\n"
+	.string "So sorry!\p"
+	.string "If it's any consolation, JOVI'\n"
+	.string "is a lot better at this than I am.\l"
+	.string "She'll get you sorted out.\p"
+	.string "Do your best to find her, and\n"
+	.string "show me what you've really got!\p"
 	.string "$"
